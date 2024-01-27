@@ -11,7 +11,7 @@ const NavBar = () => {
           </h2>
           <span className="text-warning">Logged in as Aleksandar</span>
           <Nav>
-            <Stack direction="horizontal" gap="3">
+            <Stack direction="horizontal" gap={3}>
               <Link to="/login">Login</Link>
               <Link to="/register">Register</Link>
             </Stack>
